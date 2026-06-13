@@ -26,25 +26,25 @@ Each returns its result directly over HTTP (a PNG data URI for the image workloa
 ## Architecture
 
 ```
-                 ┌──────────────────────────────────────────────────────┐
-   client  ─────►│  Load Balancer (custom, Java)   [EC2]                 │
-                 │   • least-loaded worker selection (by request cost)   │
-                 │   • AutoScaler  — CloudWatch CPU, scale 80% / 25%     │
+                 ┌────────────────────────────────────────────────────────┐
+   client  ─────►│  Load Balancer (custom, Java)   [EC2]                  │
+                 │   • least-loaded worker selection (by request cost)    │
+                 │   • AutoScaler  — CloudWatch CPU, scale 80% / 25%      │
                  │   • HealthChecker — pings /test, replaces dead workers │
                  │   • Lambda offload — light requests while scaling up   │
-                 └───────┬───────────────────────────────┬──────────────┘
+                 └───────┬───────────────────────────────┬────────────────┘
                          │ forward (HTTP :8000)           │ invoke (light + hot pool)
                          ▼                                ▼
-                 ┌─────────────────┐              ┌────────────────────┐
-                 │  EC2 worker pool │              │  AWS Lambda         │
-                 │  (WebServer +    │              │  one fn per workload│
-                 │   Javassist agent)              └────────────────────┘
-                 └────────┬─────────┘
+                 ┌────────────────────┐              ┌──────────────────────┐
+                 │  EC2 worker pool   │              │  AWS Lambda          │
+                 │  (WebServer +      │              │  one fn per workload │
+                 │   Javassist agent) |              └──────────────────────┘
+                 └────────┬───────────┘
                           │ write per-request metrics (V, normalized C)
                           ▼
-                 ┌─────────────────────────────┐
-                 │  DynamoDB  (Workload_Metrics)│  ◄── LB reads back to build
-                 └─────────────────────────────┘       per-workload V→C caches
+                 ┌───────────────────────────────┐
+                 │  DynamoDB  (Workload_Metrics) │  ◄── LB reads back to build
+                 └───────────────────────────────┘       per-workload V→C caches
 ```
 
 ### How a request is routed
