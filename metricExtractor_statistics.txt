@@ -1,0 +1,330 @@
+=== Execution Stats [2026-05-18T00:54:12.988509] ===
+Class Name        : FractalsHandler
+Arguments         : 800 | 600 | 100
+Thread Name       : pool-1-thread-1
+Executed Methods  : 2
+Basic Blocks Hit  : 32343687
+Total Instructions: 693068734
+========================================
+=== Execution Stats [2026-05-18T00:54:16.196604400] ===
+Class Name        : FractalsHandler
+Arguments         : 800 | 600 | 50
+Thread Name       : pool-1-thread-1
+Executed Methods  : 2
+Basic Blocks Hit  : 24487237
+Total Instructions: 522829122
+========================================
+=== Execution Stats [2026-05-18T00:54:17.733606] ===
+Class Name        : FractalsHandler
+Arguments         : 800 | 600 | 25
+Thread Name       : pool-1-thread-1
+Executed Methods  : 2
+Basic Blocks Hit  : 16805741
+Total Instructions: 356381279
+========================================
+=== Execution Stats [2026-05-18T00:54:19.221604700] ===
+Class Name        : FractalsHandler
+Arguments         : 800 | 600 | 25
+Thread Name       : pool-1-thread-1
+Executed Methods  : 2
+Basic Blocks Hit  : 16805741
+Total Instructions: 356381279
+========================================
+=== Execution Stats [2026-05-18T00:54:20.425601300] ===
+Class Name        : FractalsHandler
+Arguments         : 800 | 600 | 25
+Thread Name       : pool-1-thread-1
+Executed Methods  : 2
+Basic Blocks Hit  : 16805741
+Total Instructions: 356381279
+========================================
+=== Execution Stats [2026-05-18T00:54:21.574612100] ===
+Class Name        : FractalsHandler
+Arguments         : 800 | 600 | 25
+Thread Name       : pool-1-thread-1
+Executed Methods  : 2
+Basic Blocks Hit  : 16805741
+Total Instructions: 356381279
+========================================
+=== Execution Stats [2026-05-18T00:54:22.510604100] ===
+Class Name        : GrayScottHandler
+Arguments         : 128 | 500 | 0.03 | 0.062 | true | center
+Thread Name       : pool-1-thread-2
+Executed Methods  : 16384248
+Basic Blocks Hit  : 139960181
+Total Instructions: 2240767141
+========================================
+=== Execution Stats [2026-05-18T00:54:22.764606500] ===
+Class Name        : FractalsHandler
+Arguments         : 800 | 600 | 25
+Thread Name       : pool-1-thread-1
+Executed Methods  : 2
+Basic Blocks Hit  : 16805741
+Total Instructions: 356381279
+========================================
+=== Execution Stats [2026-05-19T21:40:39.073327800] ===
+Class Name        : FractalsHandler
+Arguments         : 800 | 600 | 50
+Thread Name       : pool-1-thread-2
+Executed Methods  : 2
+Basic Blocks Hit  : 24487237
+Total Instructions: 522829122
+========================================
+=== Execution Stats [2026-05-19T21:41:04.342363900] ===
+Class Name        : DnaHandler
+Arguments         : human_HBB:>lcl|NC_000011.10_cds_NP_000509.1_1 [gene=HBB] [db_xref=CCDS:CCDS7753.1,GeneID:3043] [protein=hemoglobin subunit beta] [protein_id=NP_000509.1] [location=complement(join(5225598..5225726,5226577..5226799,5226930..5227021))] [gbkey=CDS]
+ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGCTGCTGGTGGTCTACCCTTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCTGTCCACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCATGGCAAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGATCCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCATCACTTTGGCAAAGAATTCACCCCACCAGTGCAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAA | chimpanzee_HBB:>lcl|NC_036890.1_cds_XP_508242.1_1 [gene=HBB] [db_xref=GeneID:450978] [protein=hemoglobin subunit beta] [protein_id=XP_508242.1] [location=complement(join(5086135..5086263,5087114..5087336,5087467..5087558))] [gbkey=CDS]
+ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGCTGCTGGTGGTCTACCCTTGGACCCAGAGGTTCTTTGAGTCCTTTGGGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGATCCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCATCACTTTGGCAAAGAATTCACCCCACCAGTGCAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAA | 3 | false
+Thread Name       : pool-1-thread-2
+Executed Methods  : 565
+Basic Blocks Hit  : 7819
+Total Instructions: 99320
+========================================
+=== Execution Stats [2026-05-19T21:41:10.059287] ===
+Class Name        : GrayScottHandler
+Arguments         : 256 | 500 | 0.03 | 0.062 | false | center
+Thread Name       : pool-1-thread-1
+Executed Methods  : 65536872
+Basic Blocks Hit  : 558807677
+Total Instructions: 8957333069
+========================================
+=== Execution Stats [2026-05-21T23:53:07.397231100] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-1
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 2453
+Clock Execution Time(Ms)   : 2606
+================================================================================
+=== Execution Stats [2026-05-21T23:53:24.659193900] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-1
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 2250
+Clock Execution Time(Ms)   : 2274
+================================================================================
+=== Execution Stats [2026-05-21T23:55:17.473299600] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 1671
+Clock Execution Time(Ms)   : 1684
+================================================================================
+=== Execution Stats [2026-05-21T23:55:19.163958700] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 1671
+Clock Execution Time(Ms)   : 1686
+================================================================================
+=== Execution Stats [2026-05-21T23:55:20.962985300] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 1765
+Clock Execution Time(Ms)   : 1796
+================================================================================
+=== Execution Stats [2026-05-21T23:55:22.643037100] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 1671
+Clock Execution Time(Ms)   : 1675
+================================================================================
+=== Execution Stats [2026-05-21T23:55:24.333057200] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 1671
+Clock Execution Time(Ms)   : 1686
+================================================================================
+=== Execution Stats [2026-05-21T23:55:26.014030200] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 1687
+Clock Execution Time(Ms)   : 1678
+================================================================================
+=== Execution Stats [2026-05-21T23:55:28.504199100] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 2484
+Clock Execution Time(Ms)   : 2486
+================================================================================
+=== Execution Stats [2026-05-21T23:55:30.502207] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 1968
+Clock Execution Time(Ms)   : 1993
+================================================================================
+=== Execution Stats [2026-05-21T23:55:32.248187100] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 24487237
+Total Instructions         : 522829122
+CPU Execution Time(Ms)     : 1750
+Clock Execution Time(Ms)   : 1741
+================================================================================
+=== Execution Stats [2026-05-21T23:55:34.390175900] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 2390
+Clock Execution Time(Ms)   : 2395
+================================================================================
+=== Execution Stats [2026-05-21T23:55:55.244964500] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 2312
+Clock Execution Time(Ms)   : 2340
+================================================================================
+=== Execution Stats [2026-05-21T23:55:57.602310900] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 2250
+Clock Execution Time(Ms)   : 2353
+================================================================================
+=== Execution Stats [2026-05-21T23:55:59.953300900] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 2343
+Clock Execution Time(Ms)   : 2348
+================================================================================
+=== Execution Stats [2026-05-21T23:56:02.926319900] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 2921
+Clock Execution Time(Ms)   : 2970
+================================================================================
+=== Execution Stats [2026-05-21T23:56:06.970316800] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 3828
+Clock Execution Time(Ms)   : 4041
+================================================================================
+=== Execution Stats [2026-05-21T23:56:09.997205300] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 2765
+Clock Execution Time(Ms)   : 3022
+================================================================================
+=== Execution Stats [2026-05-21T23:56:14.041523200] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 3968
+Clock Execution Time(Ms)   : 4041
+================================================================================
+=== Execution Stats [2026-05-21T23:56:18.844493700] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-4
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 4281
+Clock Execution Time(Ms)   : 4797
+================================================================================
+=== Execution Stats [2026-05-21T23:56:19.560493400] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-5
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 4500
+Clock Execution Time(Ms)   : 4953
+================================================================================
+=== Execution Stats [2026-05-21T23:56:19.734501500] ===
+Class Name        : FractalsHandler
+Arguments                  : 800 | 600 | 100
+Thread Name                : pool-1-thread-6
+Executed Methods           : 2
+Basic Blocks Hit           : 32343687
+Total Instructions         : 693068734
+CPU Execution Time(Ms)     : 4421
+Clock Execution Time(Ms)   : 4985
+================================================================================
+=== Execution Stats [2026-05-21T23:56:37.843457600] ===
+Class Name        : FractalsHandler
+Arguments                  : 3000 | 2000 | 50
+Thread Name                : pool-1-thread-2
+Executed Methods           : 2
+Basic Blocks Hit           : 305987784
+Total Instructions         : 6533329481
+CPU Execution Time(Ms)     : 32609
+Clock Execution Time(Ms)   : 34267
+=======================================================
+=== Execution Stats [2026-05-22T00:03:28.488784500] ===
+Class Name        : GrayScottHandler
+Arguments                  : 256 | 500 | 0.03 | 0.062 | false | center
+Thread Name                : pool-1-thread-1
+Executed Methods           : 65536872
+Basic Blocks Hit           : 558807677
+Total Instructions         : 8957333069
+CPU Execution Time(Ms)     : 46765
+Clock Execution Time(Ms)   : 47531
+=======================================================
